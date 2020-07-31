@@ -1,0 +1,24 @@
+body{
+  background-color: black;
+  color: white;
+}
+h1{
+  text-align: center;
+  font-family: 'Rowdies', cursive;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.inputs{
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+.result{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.remark{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}

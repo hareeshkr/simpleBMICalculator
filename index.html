@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Rowdies:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>BMI Calculator</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>BMI Calculator</h1>
+    <div class="inputs">
+      <h4>Weight(kg)</h4>
+      <input type="number" name="weight" id="weight" min="1" max="100" step="any">
+      <h4>Height(cm)</h4>
+      <input type="number" name="height" id="height" min="1" max="250" step="any">
+    </div>
+    <div class="result">
+      <h3>Your BMI is </h3>
+      <h1 class="bmi">000</h1>
+    </div>
+    <h3 class="remark"></h3>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
